@@ -1,0 +1,226 @@
+.top-nav {
+    /* Background */
+
+
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: #FFFFFF;
+    transition: margin-left .5s;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-breadcrumbs {
+    height: 20px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* Illini Blue */
+
+    color: #13294B;
+    mix-blend-mode: normal;
+}
+
+a {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* Illini Blue */
+
+    color: #13294B;
+    mix-blend-mode: normal;
+}
+
+.container {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* Illini Blue */
+
+    color: #13294B;
+    mix-blend-mode: normal;
+    display: flex;
+    flex-direction: row;
+    grid-gap: 5px;
+}
+
+.breadcrumb-active {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* Illini Blue */
+
+    color: #13294B;
+    mix-blend-mode: normal;
+}
+
+.top-nav-contents {
+    /* Group 2 */
+
+    /*position: absolute;*/
+    width: 120px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+.global-search {
+    /* Rectangle */
+
+    width: 287px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    /* Cloud */
+
+    background: #F6F8FA;
+    border-radius: 8px;
+    opacity: 100%;
+}
+
+.search-icon {
+    /* Rectangle */
+
+    width: 16px;
+    height: 16px;
+    margin-left: 15px;
+    background: url(./navImages/Search-Icon.png);
+    /* Cloud */
+
+    background: #F6F8FA;
+    border-radius: 8px;
+}
+
+.search-text {
+    /* Type here… */
+
+    width: 69px;
+    height: 18px;
+    margin-left: 7px;
+    /* Body */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+    color: #252F40;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.top-nav-navigation {
+    width: 75px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.sign-out {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.user-circle {
+    width: 14px;
+    height: 14px;
+}
+
+.sign-out-btn {
+    width: 48px;
+    height: 18px;
+    margin-left: 7px;
+    /* Body */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+    /* Illini Blue */
+
+    color: #13294B;
+
+    cursor: pointer;
+}
+
+.app-settings {
+    width: 14px;
+    height: 14px;
+    margin-left: 20px;
+}
+
+.app-notifications {
+    width: 60px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.notification-bell {
+    width: 12px;
+    height: 13.71px;
+    margin-left: 20px
+}
+
+.notification-oval {
+    position: absolute;
+    top: 1px;
+    right: 35px;
+    padding: 2px 5.5px;
+    border-radius: 50%;
+    background-color: red;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -0.248936px;
+    /* Illini Blue */
+
+    color: #13294B;
+}
+
+.notification-text {
+    height: 12px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    letter-spacing: -0.248936px;
+    /* Illini Blue */
+
+    color: #13294B;
+}

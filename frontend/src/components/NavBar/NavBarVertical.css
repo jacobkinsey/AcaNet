@@ -1,0 +1,227 @@
+.side-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 297px;
+    min-height: 100vh;
+    margin: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+
+.nav-container {
+    position: sticky;
+    width: 219px;
+    height: 602px;
+    left: 33px;
+    top: 27px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    grid-gap: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.closebtn {
+    position: sticky;
+    top: 0;
+    font-size: 36px;
+    margin-left: 258px;
+    cursor: pointer;
+    color: #1D58A5;
+    z-index: 8;
+}
+
+.site-logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    grid-gap: 15.27px;
+}
+
+.logo-image {
+    width: 20.73px;
+    height: 30px;
+    background: url(./navImages/BlockI-Logo-Full-Color-RGB.png);
+}
+
+.logo-name {
+    width: 130px;
+    height: 30px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* Illini Blue */
+
+    color: #13294B;
+}
+
+.dividing-bar {
+    width: 219px;
+    height: 1px;
+    background: #F5F5F5;
+}
+
+.nav-list {
+    /* Group 1 */
+    width: 219px;
+    height: 520px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+}
+
+.nav-element {
+    width: 219px;
+    height: 55px;
+    left: 33px;
+    top: 92px;
+    margin: 0px 0px 0px 0px;
+    /* Cloud 2 */
+    /*background: #E7E8EA;*/
+    cursor: pointer;
+}
+
+.nav-contents {
+    /* Group 90 */
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    grid-column-gap: 27px;
+    position: relative;
+    width: 122px;
+    height: 20px;
+    left: 23px;
+    top: 16px;
+}
+
+.nav-vector {
+    /* Vector */
+
+}
+
+.nav-link {
+    /* Dashboard */
+
+    height: 20px;
+    width: 75px;
+    padding: 0px 0px 0px 0px;
+    /* Button Text */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* Illini Blue */
+
+    color: #13294B;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+need-help {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    grid-column-gap: 5px;
+    justify-content: center;
+}
+
+.need-help-title {
+    width: 66px;
+    height: 18px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 16.5px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+    /* Illini Blue */
+
+    color: #13294B;
+}
+
+.need-help-content {
+    /* Please check our doc */
+
+    width: 123px;
+    height: 18px;
+    margin-left: 16.5px;
+    /* Body */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+    /* Illini Blue */
+
+    color: #13294B;
+}
+
+.need-help-button {
+    /* Rectangle */
+
+    width: 186px;
+    height: 34px;
+    margin-top: 11px;
+    margin-left: 16.5px;
+    /* Illini Blue */
+
+    background: #13294B;
+    box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
+    border-radius: 8px;
+    /* Button Text */
+
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+.current {
+    background: #E7E8EA;
+    box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    opacity: 1.0;
+    cursor: default;
+}
+
+.openbtn {
+    position: sticky;
+    left: 0px;
+    top: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #1D58A5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    transition: 2s;
+    z-index: 8;
+}
